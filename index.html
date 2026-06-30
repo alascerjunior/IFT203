@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Alascer Junior | Software Engineering Portfolio</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+    <div class="portfolio-bg"></div>
+    <div class="bg-overlay"></div>
+
+    <nav class="navbar">
+        <div class="logo">AJ</div>
+        <ul class="nav-links">
+            <li><a href="#" class="nav-btn active" data-target="home">Home</a></li>
+            <li><a href="#" class="nav-btn" data-target="about">About</a></li>
+            <li><a href="#" class="nav-btn" data-target="education">Education</a></li>
+            <li><a href="#" class="nav-btn" data-target="skills">Skills</a></li>
+            <li><a href="#" class="nav-btn" data-target="philosophy">My Approach</a></li>
+            <li><a href="#" class="nav-btn" data-target="projects">Projects</a></li>
+            <li><a href="#" class="nav-btn" data-target="certifications">Certifications</a></li>
+            <li><a href="#" class="nav-btn" data-target="deployment">Deployment</a></li>
+            <li><a href="#" class="nav-btn" data-target="goals">Future</a></li>
+            <li><a href="#" class="nav-btn" data-target="contact">Contact</a></li>
+        </ul>
+    </nav>
+
+    <main class="content-container">
+
+        <section id="home" class="page active">
+            <div class="hero-content">
+                <h1>Alascer Junior</h1>
+                <p class="subtitle">Building the next generation of web applications.</p>
+                <a href="#" class="cta-btn" onclick="navigateTo('about')">Explore My Work</a>
+            </div>
+        </section>
+
+        <section id="about" class="page">
+            <h2>About Me</h2>
+            <div class="about-grid">
+                <img src="me.jpg" alt="Alascer Junior" class="about-img">
+                <div class="about-text">
+                    <p>I am a detail-oriented programmer driven by the logic and problem-solving aspects of software engineering. My journey into development started with curiosity about how the web operates, which quickly evolved into a dedicated pursuit of clean architecture and functional design.</p>
+                    <p>I focus heavily on understanding underlying technical foundations before writing code. I appreciate systems that work seamlessly under the hood, and I aim to bring that level of discipline to every project I take on.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="education" class="page">
+            <h2>Academic Background</h2>
+            <div class="card">
+                <h3>B.Sc. Software Engineering (In Progress)</h3>
+                <p class="institution">Northwest University, Kano</p>
+                <p class="timeline">Current Status: 200 Level</p>
+                <p class="details">Immersing myself in core computing concepts, algorithms, and software design principles. My academic path fuels my technical mindset, complementing my self-taught practical implementations.</p>
+            </div>
+        </section>
+
+        <section id="skills" class="page">
+            <h2>Core Competencies</h2>
+            <div class="skills-grid">
+                <div class="skill-card">
+                    <div class="skill-index">01 / Front-End</div>
+                    <h3>Interface Architecture</h3>
+                    <p>Translating visual wireframes into structural layouts and responsive systems. Deep understanding of document hierarchies and custom layouts using clean styles.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-index">02 / JavaScript</div>
+                    <h3>Dynamic Scripting</h3>
+                    <p>Handling client-side logic, manipulating the DOM dynamically, and controlling complex UI states seamlessly without relying on bulky frameworks.</p>
+                </div>
+                <div class="skill-card">
+                    <div class="skill-index">03 / Node.js</div>
+                    <h3>Server-Side Execution</h3>
+                    <p>Moving outside the boundaries of the browser to create scalable back-end operations, scripts, and runtime application configurations.</p>
+                </div>
+            </div>
+        </section>
+
+        <section id="philosophy" class="page">
+            <h2>Development Approach</h2>
+            <div class="card">
+                <h3>Simplicity Over Complexity</h3>
+                <p>I believe that code should be written to be read by humans first and executed by machines second. My philosophy centers around minimalism, avoiding unnecessary dependencies, and prioritizing raw execution performance. Every line of code must serve a specific, intentional purpose.</p>
+            </div>
+        </section>
+
+        <section id="projects" class="page">
+            <h2>Selected Works</h2>
+            <div class="projects-grid">
+                <div class="project-card">
+                    <h3>Developer Portfolio v1</h3>
+                    <p>A custom-built single-page ecosystem showcasing my technical transition into software engineering. This serves as a central hub for my work, built entirely from scratch to highlight execution speed and semantic layouts.</p>
+                    <span class="tech-tag">HTML5 / CSS3 / Vanilla JS</span>
+                </div>
+            </div>
+        </section>
+
+        <section id="certifications" class="page">
+            <h2>Credentials</h2>
+            <div class="cert-card">
+                <h3>Responsive Web Design</h3>
+                <p class="issuer">freeCodeCamp Verified</p>
+                <a href="https://www.freecodecamp.org/certification/alascer_junior/responsive-web-design" target="_blank" class="cert-link">Verify Credentials ↗️</a>
+                <div class="cert-img-container">
+                    <img src="cert.jpg" alt="freeCodeCamp Responsive Web Design Certificate" class="cert-img">
+                </div>
+            </div>
+        </section>
+
+        <section id="deployment" class="page">
+            <h2>Ecosystem & Hosting</h2>
+            <p class="section-intro">Familiar workflows and architectures used to build, manage version control, and deploy dynamic applications online:</p>
+            <div class="deploy-grid">
+                <div class="deploy-item"><strong>GitHub</strong> — Code hosting, branching strategies, and repository version control.</div>
+                <div class="deploy-item"><strong>Vercel</strong> — Production deployments, rapid staging, and serverless optimization.</div>
+                <div class="deploy-item"><strong>Netlify</strong> — Web application automation and continuous delivery streams.</div>
+                <div class="deploy-item"><strong>Render</strong> — Full-stack deployment pipelines and web service management.</div>
+            </div>
+        </section>
+
+        <section id="goals" class="page">
+            <h2>Future Trajectory</h2>
+            <div class="card">
+                <h3>Architecting Complete Systems</h3>
+                <p>While my immediate foundation is anchored firmly in structural layouts and client/server scripts, my ultimate objective as a software engineering student is to dive deep into database normalization, system architecture, and optimization algorithms. I'm actively aiming to scale smaller script projects into large, highly optimized backend structures.</p>
+            </div>
+        </section>
+
+        <section id="contact" class="page">
+            <h2>Let's Connect</h2>
+            <div class="contact-container">
+                <p>I am open to discussions regarding software design, internship opportunities, or technical collaborations.</p>
+                <div class="contact-details">
+                    <div class="contact-item">
+                        <span>Email:</span>
+                        <a href="mailto:alascer9390@gmail.com">alascer9390@gmail.com</a>
+                    </div>
+                    <div class="contact-item">
+                        <span>Phone:</span>
+                        <a href="tel:+2347045141289">+234 (0) 704 514 1289</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
